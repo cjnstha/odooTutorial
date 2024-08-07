@@ -7451,3 +7451,596 @@ hospital.access_hospital_patient,access_hospital_patient,hospital.model_hospital
 2024-08-07 06:37:41,109 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:37:41] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.007
 2024-08-07 06:38:06,887 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:38:06] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.028
 2024-08-07 06:38:32,112 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:38:32] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.007
+2024-08-07 06:38:57,244 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:38:57] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.009 50.022
+2024-08-07 06:39:22,935 7880 INFO OdooTest odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-08-07 06:39:22,940 7880 INFO OdooTest odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-08-07 06:39:23,103 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:39:23] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.005
+2024-08-07 06:39:47,583 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:39:47] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.023
+2024-08-07 06:40:14,101 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:40:14] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.002
+2024-08-07 06:40:37,938 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:40:37] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.026
+2024-08-07 06:41:05,108 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:41:05] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.001 0.004
+2024-08-07 06:41:28,290 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:41:28] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.021
+2024-08-07 06:41:56,099 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:41:56] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.007
+2024-08-07 06:42:18,650 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:42:18] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.028
+2024-08-07 06:42:47,099 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:42:47] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.006
+2024-08-07 06:43:09,007 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:43:09] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.023
+2024-08-07 06:43:38,097 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:43:38] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.002
+2024-08-07 06:43:59,332 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:43:59] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.012
+2024-08-07 06:44:29,100 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:44:29] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.004
+2024-08-07 06:44:49,692 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:44:49] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.026
+2024-08-07 06:45:20,101 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:45:20] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.003
+2024-08-07 06:45:40,024 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:45:40] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.002 50.017
+2024-08-07 06:46:11,101 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:46:11] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.001 0.004
+2024-08-07 06:46:30,387 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:46:30] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.028
+2024-08-07 06:47:02,094 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:47:02] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.003
+2024-08-07 06:47:20,750 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:47:20] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.015
+2024-08-07 06:47:53,097 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:47:53] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.002
+2024-08-07 06:48:11,087 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:48:11] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.020
+2024-08-07 06:48:44,108 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:48:44] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.009
+2024-08-07 06:49:01,428 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:49:01] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.020
+2024-08-07 06:49:06,515 7880 INFO OdooTest odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-08-07 06:49:06,528 7880 INFO OdooTest odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-08-07 06:49:06,533 7880 INFO OdooTest odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-08-07 06:49:06,537 7880 INFO OdooTest odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-08-07 06:49:06,542 7880 INFO OdooTest odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-08-07 06:49:06,546 7880 INFO OdooTest odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-08-07 06:49:06,549 7880 INFO OdooTest odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-08-07 06:49:06,552 7880 INFO OdooTest odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-08-07 06:49:33,161 7880 INFO OdooTest odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-08-07 06:49:33,170 7880 INFO OdooTest odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-08-07 06:49:35,114 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:49:35] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.006
+2024-08-07 06:49:51,794 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:49:51] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.033
+2024-08-07 06:50:26,107 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:50:26] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.005 0.007
+2024-08-07 06:50:42,126 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:50:42] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.018
+2024-08-07 06:51:17,109 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:51:17] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.007
+2024-08-07 06:51:32,479 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:51:32] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.023
+2024-08-07 06:52:08,110 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:52:08] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.008
+2024-08-07 06:52:22,827 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:52:22] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.026
+2024-08-07 06:52:59,099 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:52:59] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.006
+2024-08-07 06:53:13,191 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:53:13] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.030
+2024-08-07 06:53:50,106 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:53:50] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.007
+2024-08-07 06:54:03,558 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:54:03] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.034
+2024-08-07 06:54:41,102 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:54:41] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.006
+2024-08-07 06:54:53,898 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:54:53] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.009
+2024-08-07 06:55:32,104 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:55:32] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.005
+2024-08-07 06:55:44,234 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:55:44] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.018
+2024-08-07 06:56:23,101 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:56:23] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.005
+2024-08-07 06:56:34,577 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:56:34] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.022
+2024-08-07 06:57:14,111 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:57:14] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.007
+2024-08-07 06:57:24,919 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:57:24] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.019
+2024-08-07 06:58:05,100 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:58:05] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.006
+2024-08-07 06:58:15,281 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:58:15] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.029
+2024-08-07 06:58:56,097 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:58:56] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.005
+2024-08-07 06:59:05,643 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:59:05] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.026
+2024-08-07 06:59:43,382 7880 INFO OdooTest odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-08-07 06:59:43,385 7880 INFO OdooTest odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-08-07 06:59:47,104 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:59:47] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.001 0.007
+2024-08-07 06:59:55,994 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 06:59:55] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.016
+2024-08-07 07:00:38,100 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:00:38] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.007
+2024-08-07 07:00:46,345 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:00:46] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.018
+2024-08-07 07:01:29,102 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:01:29] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.005
+2024-08-07 07:01:36,695 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:01:36] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.016
+2024-08-07 07:02:20,111 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:02:20] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.008
+2024-08-07 07:02:27,049 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:02:27] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.021
+2024-08-07 07:03:11,095 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:03:11] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.005
+2024-08-07 07:03:17,385 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:03:17] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.020
+2024-08-07 07:04:02,105 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:04:02] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.006
+2024-08-07 07:04:07,743 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:04:07] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.025
+2024-08-07 07:04:53,113 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:04:53] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.008
+2024-08-07 07:04:58,102 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:04:58] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.029
+2024-08-07 07:05:44,105 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:05:44] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.009
+2024-08-07 07:05:48,447 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:05:48] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.026
+2024-08-07 07:06:35,106 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:06:35] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.007
+2024-08-07 07:06:38,791 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:06:38] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.023
+2024-08-07 07:07:26,127 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:07:26] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.005
+2024-08-07 07:07:29,135 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:07:29] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.017
+2024-08-07 07:08:17,109 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:08:17] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.007
+2024-08-07 07:08:19,479 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:08:19] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.022
+2024-08-07 07:09:08,120 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:09:08] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.007
+2024-08-07 07:09:09,819 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:09:09] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.017
+2024-08-07 07:09:53,618 7880 INFO OdooTest odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-08-07 07:09:53,623 7880 INFO OdooTest odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-08-07 07:09:59,107 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:09:59] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.004
+2024-08-07 07:10:00,167 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:10:00] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.026
+2024-08-07 07:10:50,105 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:10:50] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.005
+2024-08-07 07:10:50,523 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:10:50] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.009 50.031
+2024-08-07 07:11:40,894 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:11:40] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.034
+2024-08-07 07:11:41,401 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:11:41] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.005
+2024-08-07 07:12:30,942 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:12:30] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.028
+2024-08-07 07:12:32,104 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:12:32] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.005
+2024-08-07 07:13:21,298 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:13:21] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.023
+2024-08-07 07:13:23,104 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:13:23] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.004
+2024-08-07 07:14:11,652 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:14:11] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.033
+2024-08-07 07:14:14,115 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:14:14] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.001 0.007
+2024-08-07 07:15:01,999 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:15:01] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.010 50.021
+2024-08-07 07:15:05,155 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:15:05] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.007
+2024-08-07 07:15:52,359 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:15:52] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.032
+2024-08-07 07:15:56,112 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:15:56] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.007
+2024-08-07 07:16:42,706 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:16:42] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.015
+2024-08-07 07:16:47,098 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:16:47] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.006
+2024-08-07 07:17:33,063 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:17:33] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.026
+2024-08-07 07:17:38,106 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:17:38] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.006
+2024-08-07 07:18:23,407 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:18:23] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.021
+2024-08-07 07:18:29,100 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:18:29] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.006
+2024-08-07 07:19:13,762 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:19:13] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.022
+2024-08-07 07:19:20,092 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:19:20] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.005
+2024-08-07 07:20:03,847 7880 INFO OdooTest odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-08-07 07:20:03,851 7880 INFO OdooTest odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-08-07 07:20:04,128 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:20:04] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.027
+2024-08-07 07:20:11,106 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:20:11] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.004
+2024-08-07 07:20:54,486 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:20:54] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.002 50.025
+2024-08-07 07:21:02,105 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:21:02] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.006
+2024-08-07 07:21:44,881 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:21:44] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.002 50.031
+2024-08-07 07:21:53,101 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:21:53] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.003
+2024-08-07 07:22:35,295 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:22:35] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.025
+2024-08-07 07:22:44,106 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:22:44] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.005
+2024-08-07 07:23:25,643 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:23:25] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.010 50.012
+2024-08-07 07:23:35,101 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:23:35] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.006
+2024-08-07 07:24:15,990 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:24:15] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.009 50.012
+2024-08-07 07:24:26,107 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:24:26] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.007
+2024-08-07 07:25:06,351 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:25:06] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.009 50.033
+2024-08-07 07:25:17,109 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:25:17] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.007
+2024-08-07 07:25:56,723 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:25:56] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.039
+2024-08-07 07:26:08,111 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:26:08] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.005
+2024-08-07 07:26:47,080 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:26:47] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.025
+2024-08-07 07:26:59,102 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:26:59] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.007
+2024-08-07 07:27:37,434 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:27:37] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.021
+2024-08-07 07:27:50,097 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:27:50] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.006
+2024-08-07 07:28:27,794 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:28:27] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.022
+2024-08-07 07:28:41,098 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:28:41] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.006
+2024-08-07 07:29:18,143 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:29:18] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.018
+2024-08-07 07:29:32,095 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:29:32] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.006
+2024-08-07 07:30:06,987 7880 INFO OdooTest odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-08-07 07:30:06,991 7880 INFO OdooTest odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-08-07 07:30:08,495 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:30:08] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.016
+2024-08-07 07:30:23,108 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:30:23] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.006
+2024-08-07 07:30:58,851 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:30:58] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.034
+2024-08-07 07:31:14,098 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:31:14] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.006
+2024-08-07 07:31:49,202 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:31:49] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.033
+2024-08-07 07:32:05,102 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:32:05] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.005
+2024-08-07 07:32:39,549 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:32:39] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.024
+2024-08-07 07:32:56,109 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:32:56] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.007
+2024-08-07 07:33:29,892 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:33:29] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.025
+2024-08-07 07:33:47,098 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:33:47] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.005
+2024-08-07 07:34:20,239 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:34:20] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.026
+2024-08-07 07:34:38,104 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:34:38] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.006
+2024-08-07 07:35:10,592 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:35:10] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.033
+2024-08-07 07:35:29,106 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:35:29] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.007
+2024-08-07 07:36:00,957 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:36:00] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.032
+2024-08-07 07:36:20,112 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:36:20] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.007
+2024-08-07 07:36:51,306 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:36:51] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.002 50.034
+2024-08-07 07:37:11,105 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:37:11] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.007
+2024-08-07 07:37:41,668 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:37:41] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.029
+2024-08-07 07:38:02,100 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:38:02] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.005 0.004
+2024-08-07 07:38:32,029 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:38:32] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.029
+2024-08-07 07:38:53,103 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:38:53] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.006
+2024-08-07 07:39:22,374 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:39:22] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.026
+2024-08-07 07:39:23,240 7880 INFO OdooTest odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-08-07 07:39:23,243 7880 INFO OdooTest odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-08-07 07:39:44,107 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:39:44] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.008
+2024-08-07 07:40:12,727 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:40:12] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.021
+2024-08-07 07:40:35,104 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:40:35] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.007
+2024-08-07 07:41:03,073 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:41:03] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.018
+2024-08-07 07:41:26,096 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:41:26] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.001 0.004
+2024-08-07 07:41:53,430 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:41:53] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.009 50.021
+2024-08-07 07:42:17,104 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:42:17] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.005
+2024-08-07 07:42:43,778 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:42:43] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.028
+2024-08-07 07:43:08,100 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:43:08] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.006
+2024-08-07 07:43:34,104 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:43:34] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.010
+2024-08-07 07:43:59,100 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:43:59] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.005
+2024-08-07 07:44:24,462 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:44:24] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.023
+2024-08-07 07:44:50,103 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:44:50] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.004
+2024-08-07 07:45:14,799 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:45:14] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.018
+2024-08-07 07:45:41,106 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:45:41] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.008
+2024-08-07 07:46:05,140 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:46:05] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.023
+2024-08-07 07:46:32,110 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:46:32] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.001 0.007
+2024-08-07 07:46:55,492 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:46:55] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.018
+2024-08-07 07:47:23,106 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:47:23] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.005 0.006
+2024-08-07 07:47:45,847 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:47:45] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.010 50.020
+2024-08-07 07:48:14,104 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:48:14] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.006
+2024-08-07 07:48:36,204 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:48:36] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.025
+2024-08-07 07:49:05,102 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:49:05] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.007
+2024-08-07 07:49:07,205 7880 INFO OdooTest odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2024-08-07 07:49:07,211 7880 INFO OdooTest odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2024-08-07 07:49:07,224 7880 INFO OdooTest odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2024-08-07 07:49:07,229 7880 INFO OdooTest odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2024-08-07 07:49:07,235 7880 INFO OdooTest odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2024-08-07 07:49:07,237 7880 INFO OdooTest odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2024-08-07 07:49:07,243 7880 INFO OdooTest odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2024-08-07 07:49:07,247 7880 INFO OdooTest odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2024-08-07 07:49:26,525 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:49:26] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.005
+2024-08-07 07:49:33,432 7880 INFO OdooTest odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-08-07 07:49:33,436 7880 INFO OdooTest odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-08-07 07:49:56,099 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:49:56] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.008
+2024-08-07 07:50:16,885 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:50:16] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.020
+2024-08-07 07:50:47,112 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:50:47] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.006
+2024-08-07 07:51:07,249 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:51:07] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.031
+2024-08-07 07:51:38,104 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:51:38] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.006
+2024-08-07 07:51:57,605 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:51:57] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.023
+2024-08-07 07:52:29,107 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:52:29] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.008
+2024-08-07 07:52:47,944 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:52:47] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.019
+2024-08-07 07:53:20,103 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:53:20] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.007
+2024-08-07 07:53:38,286 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:53:38] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.011
+2024-08-07 07:54:11,099 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:54:11] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.006
+2024-08-07 07:54:28,636 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:54:28] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.016
+2024-08-07 07:55:02,115 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:55:02] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.007 0.006
+2024-08-07 07:55:19,021 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:55:19] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.029
+2024-08-07 07:55:53,110 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:55:53] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.008
+2024-08-07 07:56:09,389 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:56:09] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.036
+2024-08-07 07:56:30,295 6588 INFO ? odoo.service.server: Initiating shutdown 
+2024-08-07 07:56:30,301 6588 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-08-07 07:56:30,691 6588 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
+2024-08-07 07:56:32,153 10592 INFO ? odoo: Odoo version 15.0-20240717 
+2024-08-07 07:56:32,153 10592 INFO ? odoo: Using configuration file at D:\Odoo15\server\odoo.conf 
+2024-08-07 07:56:32,153 10592 INFO ? odoo: addons paths: ['D:\\Odoo15\\server\\odoo\\addons', 'c:\\users\\cjnst\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'd:\\odoo15\\server\\odoo\\addons', 'd:\\odoo15\\custom_addons'] 
+2024-08-07 07:56:32,153 10592 INFO ? odoo: database: odoo15@localhost:5432 
+2024-08-07 07:56:32,285 10592 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Odoo15\thirdparty\wkhtmltopdf.exe 
+2024-08-07 07:56:32,482 10592 INFO ? odoo.service.server: HTTP service (werkzeug) running on LAPTOP-GN9VHO1F:8015 
+2024-08-07 07:56:44,126 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:56:44] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.008
+2024-08-07 07:56:59,740 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:56:59] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.017
+2024-08-07 07:57:13,972 7188 INFO ? odoo: Odoo version 15.0-20240717 
+2024-08-07 07:57:13,972 7188 INFO ? odoo: Using configuration file at D:\Odoo15\server\odoo.conf 
+2024-08-07 07:57:13,972 7188 INFO ? odoo: addons paths: ['D:\\Odoo15\\server\\odoo\\addons', 'c:\\users\\cjnst\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'd:\\odoo15\\server\\odoo\\addons', 'd:\\odoo15\\custom_addons'] 
+2024-08-07 07:57:13,972 7188 INFO ? odoo: database: odoo15@localhost:5432 
+2024-08-07 07:57:14,092 7188 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Odoo15\thirdparty\wkhtmltopdf.exe 
+2024-08-07 07:57:14,269 7188 INFO ? odoo.service.server: HTTP service (werkzeug) running on LAPTOP-GN9VHO1F:8015 
+2024-08-07 07:57:24,842 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:24] "GET /web HTTP/1.1" 200 - 17 0.019 0.261
+2024-08-07 07:57:25,248 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:25] "GET /web/webclient/load_menus/3d931144c50a58864cab63c1c0a2b83f77495a7b61e295b131db5c123982fb90 HTTP/1.1" 200 - 1 0.001 0.009
+2024-08-07 07:57:25,418 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:25] "POST /web/action/load HTTP/1.1" 200 - 15 0.006 0.016
+2024-08-07 07:57:25,501 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:25] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.002 0.005
+2024-08-07 07:57:25,513 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:25] "POST /mail/init_messaging HTTP/1.1" 200 - 38 0.024 0.014
+2024-08-07 07:57:25,652 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:25] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 10 0.014 0.033
+2024-08-07 07:57:25,659 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:25] "POST /web/dataset/call_kw/ir.model/load_views HTTP/1.1" 200 - 17 0.020 0.033
+2024-08-07 07:57:25,754 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:25] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.006
+2024-08-07 07:57:25,860 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:25] "POST /web/dataset/call_kw/ir.ui.view/load_views HTTP/1.1" 200 - 6 0.008 0.015
+2024-08-07 07:57:25,869 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:25] "POST /mail/load_message_failures HTTP/1.1" 200 - 10 0.014 0.015
+2024-08-07 07:57:26,005 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:26] "POST /web/dataset/call_kw/ir.model/read HTTP/1.1" 200 - 11 0.010 0.016
+2024-08-07 07:57:26,192 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:26] "POST /web/dataset/call_kw/ir.model.fields/read HTTP/1.1" 200 - 2 0.001 0.005
+2024-08-07 07:57:26,358 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:26] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 6 0.007 0.024
+2024-08-07 07:57:31,840 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:31] "POST /web/action/load HTTP/1.1" 200 - 28 0.030 0.034
+2024-08-07 07:57:32,253 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:32] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 49 0.043 0.043
+2024-08-07 07:57:32,625 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:32] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 42 0.028 0.020
+2024-08-07 07:57:32,961 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:32] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.003 0.008
+2024-08-07 07:57:33,349 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:33] "[36mGET /hr/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:33,353 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:33] "[36mGET /hr_holidays/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:33,356 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:33] "[36mGET /hr_expense/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:33,358 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:33] "[36mGET /hr_recruitment/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:33,359 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:33] "[36mGET /base/static/img/icons/sign.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:33,658 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:33] "[36mGET /base/static/img/icons/industry_fsm.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:33,667 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:33] "[36mGET /base/static/img/icons/account_accountant.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:33,668 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:33] "[36mGET /project/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:33,670 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:33] "[36mGET /mass_mailing/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:33,670 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:33] "[36mGET /website_sale/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:33,970 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:33] "[36mGET /stock/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:33,980 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:33] "[36mGET /point_of_sale/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:33,982 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:33] "[36mGET /maintenance/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:33,984 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:33] "[36mGET /mrp/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:33,984 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:33] "[36mGET /base/static/img/icons/timesheet_grid.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:34,285 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:34] "[36mGET /base/static/img/icons/web_studio.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:34,294 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:34] "[36mGET /purchase/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:34,296 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:34] "[36mGET /website/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:34,298 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:34] "[36mGET /base/static/img/icons/helpdesk.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:34,299 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:34] "[36mGET /hospital/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:34,592 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:34] "[36mGET /sale_management/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:34,602 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:34] "[36mGET /base/static/img/icons/mrp_workorder.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:34,603 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:34] "[36mGET /crm/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:34,606 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:34] "[36mGET /account/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:34,612 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:34] "[36mGET /base/static/img/icons/sale_subscription.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:34,928 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:34] "[36mGET /base/static/img/icons/quality_control.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:34,931 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:34] "[36mGET /website_slides/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:34,936 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:34] "[36mGET /base/static/img/icons/planning.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:34,953 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:34] "[36mGET /website_event/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:34,976 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:34] "POST /web/dataset/call_kw/ir.module.module/read HTTP/1.1" 200 - 10 0.012 0.056
+2024-08-07 07:57:35,255 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:35] "[36mGET /base/static/src/css/description.css HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:35,262 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:35] "[36mGET /mail/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:35,272 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:35] "GET /web/image?model=ir.module.module&id=514&field=icon_image&unique=07082024135234 HTTP/1.1" 200 - 2 0.007 0.012
+2024-08-07 07:57:35,272 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:35] "[36mGET /contacts/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:35,291 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:35] "[36mGET /base/static/img/icons/mrp_plm.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:35,575 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:35] "[36mGET /base/static/img/icons/hr_appraisal.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:35,576 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:35] "[36mGET /calendar/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:35,580 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:35] "[36mGET /fleet/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:35,583 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:35] "[36mGET /base/static/img/icons/marketing_automation.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:35,606 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:35] "[36mGET /website_blog/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:35,889 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:35] "[36mGET /im_livechat/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:35,893 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:35] "[36mGET /base/static/img/icons/appointment.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:35,898 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:35] "[36mGET /survey/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:35,903 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:35] "[36mGET /base/static/img/icons/web_mobile.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:35,919 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:35] "[36mGET /board/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:36,222 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:36] "[36mGET /repair/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:36,231 7880 INFO OdooTest odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['Hospital Solution'] to user sthsijan25@gmail.com #2 via 127.0.0.1 
+2024-08-07 07:57:36,231 7880 INFO OdooTest odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Hospital Solution'] to user sthsijan25@gmail.com #2 via 127.0.0.1 
+2024-08-07 07:57:36,232 7880 INFO OdooTest odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Hospital Solution'] to user sthsijan25@gmail.com #2 via 127.0.0.1 
+2024-08-07 07:57:36,233 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:36] "[36mGET /mass_mailing_sms/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:36,240 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:36] "[36mGET /hr_attendance/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:36,242 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:36] "[36mGET /base/static/img/icons/stock_barcode.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:36,530 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:36] "[36mGET /note/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:36,544 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:36] "[36mGET /website_forum/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:36,552 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:36] "[36mGET /base/static/img/icons/voip.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:36,552 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:36] "[36mGET /hr_skills/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:36,844 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:36] "[36mGET /lunch/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:36,860 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:36] "[36mGET /website_hr_recruitment/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:36,865 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:36] "[36mGET /base/static/img/icons/sale_ebay.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:36,867 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:36] "[36mGET /hr_contract/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:36,940 7880 INFO OdooTest odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user sthsijan25@gmail.com #2 via 127.0.0.1 
+2024-08-07 07:57:36,956 7880 INFO OdooTest odoo.modules.loading: loading 1 modules... 
+2024-08-07 07:57:36,965 7880 INFO OdooTest odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-08-07 07:57:36,979 7880 INFO OdooTest odoo.modules.loading: updating modules list 
+2024-08-07 07:57:36,979 7880 INFO OdooTest odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2024-08-07 07:57:37,160 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:37] "[36mGET /payment_adyen/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:37,177 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:37] "[36mGET /payment_alipay/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:37,178 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:37] "[36mGET /payment_buckaroo/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:37,178 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:37] "[36mGET /payment_authorize/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:37,477 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:37] "[36mGET /payment_mollie/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:37,483 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:37] "[36mGET /payment_ogone/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:37,488 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:37] "[36mGET /payment_payulatam/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:37,490 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:37] "[36mGET /payment_paypal/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:37,585 7880 INFO OdooTest odoo.modules.loading: loading 43 modules... 
+2024-08-07 07:57:37,585 7880 INFO OdooTest odoo.modules.loading: Loading module hospital (2/43) 
+2024-08-07 07:57:37,604 7880 INFO OdooTest odoo.modules.registry: module hospital: creating or updating database tables 
+2024-08-07 07:57:37,631 7880 INFO OdooTest odoo.addons.base.models.ir_translation: module hospital: no translation for language en_AU 
+2024-08-07 07:57:37,634 7880 WARNING OdooTest odoo.modules.loading: The models ['hospital.patient'] have no access rules in module hospital, consider adding some, like:
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+hospital.access_hospital_patient,access_hospital_patient,hospital.model_hospital_patient,base.group_user,1,0,0,0 
+2024-08-07 07:57:37,637 7880 INFO OdooTest odoo.modules.loading: Module hospital loaded in 0.05s, 31 queries 
+2024-08-07 07:57:37,687 7880 INFO OdooTest odoo.modules.loading: 43 modules loaded in 0.10s, 31 queries (+0 extra) 
+2024-08-07 07:57:37,815 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:37] "[36mGET /payment_payumoney/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:37,820 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:37] "[36mGET /payment_stripe/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:37,822 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:37] "[36mGET /payment_sips/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:37,925 7880 INFO OdooTest odoo.modules.registry: verifying fields for every extended model 
+2024-08-07 07:57:38,144 7880 INFO OdooTest odoo.modules.loading: Modules loaded. 
+2024-08-07 07:57:38,156 7880 INFO OdooTest odoo.modules.registry: Registry loaded in 1.206s 
+2024-08-07 07:57:38,156 7880 INFO OdooTest odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2024-08-07 07:57:38,160 7880 INFO OdooTest odoo.modules.registry: Registry changed, signaling through the database 
+2024-08-07 07:57:38,161 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:38] "POST /web/dataset/call_button HTTP/1.1" 200 - 2911 0.856 1.089
+2024-08-07 07:57:38,485 7880 INFO OdooTest odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-08-07 07:57:39,754 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:39] "GET /web HTTP/1.1" 200 - 333 0.128 1.145
+2024-08-07 07:57:40,127 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:40] "GET /web/webclient/load_menus/3d931144c50a58864cab63c1c0a2b83f77495a7b61e295b131db5c123982fb90 HTTP/1.1" 200 - 1 0.001 0.006
+2024-08-07 07:57:40,396 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:40] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.000 0.008
+2024-08-07 07:57:40,417 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:40] "POST /mail/init_messaging HTTP/1.1" 200 - 70 0.044 0.032
+2024-08-07 07:57:40,480 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:40] "POST /web/action/load HTTP/1.1" 200 - 8 0.005 0.008
+2024-08-07 07:57:40,809 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:40] "POST /longpolling/im_status HTTP/1.1" 200 - 12 0.323 0.017
+2024-08-07 07:57:40,811 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:40] "POST /mail/load_message_failures HTTP/1.1" 200 - 11 0.325 0.015
+2024-08-07 07:57:40,831 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:40] "POST /mail/inbox/messages HTTP/1.1" 200 - 9 0.015 0.015
+2024-08-07 07:57:40,841 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:40] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 12 0.011 0.024
+2024-08-07 07:57:43,834 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:43] "POST /web/action/load HTTP/1.1" 200 - 52 0.019 0.016
+2024-08-07 07:57:44,280 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:44] "POST /web/dataset/call_kw/res.config.settings/load_views HTTP/1.1" 200 - 59 0.047 0.089
+2024-08-07 07:57:44,777 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:44] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 206 0.122 0.039
+2024-08-07 07:57:45,161 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:45] "[36mGET /base_setup/static/src/img/app_store.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:45,163 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:45] "POST /base_setup/demo_active HTTP/1.1" 200 - 4 0.006 0.009
+2024-08-07 07:57:45,167 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:45] "POST /base_setup/data HTTP/1.1" 200 - 6 0.007 0.010
+2024-08-07 07:57:45,173 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:45] "[36mGET /base_setup/static/src/img/google_play.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:45,185 7880 INFO OdooTest odoo.http: <function odoo.addons.web_editor.controllers.main.public_render_template> called ignoring args <kwargs={'context': {'lang': 'en_AU', 'tz': 'Europe/Brussels', 'uid': 2}}> 
+2024-08-07 07:57:45,217 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:45] "POST /web_editor/public_render_template HTTP/1.1" 200 - 27 0.019 0.044
+2024-08-07 07:57:45,575 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:45] "GET /web/assets/391-7ebb1b3/web_editor.assets_wysiwyg.min.css HTTP/1.1" 200 - 2 0.000 0.037
+2024-08-07 07:57:45,657 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:45] "GET /web/assets/392-7ebb1b3/web_editor.assets_wysiwyg.min.js HTTP/1.1" 200 - 2 0.001 0.120
+2024-08-07 07:57:46,016 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:46] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.005
+2024-08-07 07:57:46,333 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:46] "GET /web_editor/static/src/xml/editor.xml?debug=1723017466019 HTTP/1.1" 200 - - - -
+2024-08-07 07:57:46,696 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:46] "[36mGET /sale_management/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:46,698 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:46] "[36mGET /account/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:46,699 7880 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:46] "[36mGET /base/static/description/settings.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:57:50,085 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:50] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.011
+2024-08-07 07:57:52,081 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:52] "POST /web/action/load HTTP/1.1" 200 - 22 0.017 0.017
+2024-08-07 07:57:52,498 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:52] "POST /web/dataset/call_kw/ir.model/load_views HTTP/1.1" 200 - 64 0.059 0.034
+2024-08-07 07:57:52,819 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:52] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.004 0.005
+2024-08-07 07:57:53,145 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:53] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.002 0.006
+2024-08-07 07:57:58,546 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:57:58] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.004 0.006
+2024-08-07 07:58:01,176 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:58:01] "POST /web/dataset/call_kw/ir.ui.view/load_views HTTP/1.1" 200 - 18 0.013 0.013
+2024-08-07 07:58:01,524 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:58:01] "POST /web/dataset/call_kw/ir.model/read HTTP/1.1" 200 - 19 0.019 0.013
+2024-08-07 07:58:01,843 7880 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:58:01] "POST /web/dataset/call_kw/ir.model.fields/read HTTP/1.1" 200 - 2 0.003 0.004
+2024-08-07 07:58:08,416 7880 ERROR ? odoo.addons.bus.models.bus: Bus.loop error, sleep and retry 
+Traceback (most recent call last):
+  File "D:\Odoo15\server\odoo\addons\bus\models\bus.py", line 227, in loop
+    conn.poll()
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Odoo15\server\odoo\addons\bus\models\bus.py", line 250, in run
+    self.loop()
+  File "D:\Odoo15\server\odoo\addons\bus\models\bus.py", line 219, in loop
+    with odoo.sql_db.db_connect('postgres').cursor() as cr:
+  File "D:\Odoo15\server\odoo\sql_db.py", line 162, in __exit__
+    self.close()
+  File "<decorator-gen-6>", line 2, in close
+  File "D:\Odoo15\server\odoo\sql_db.py", line 90, in check
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Odoo15\server\odoo\sql_db.py", line 380, in close
+    return self._close(False)
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Odoo15\server\odoo\sql_db.py", line 406, in _close
+    self.rollback()
+  File "<decorator-gen-10>", line 2, in rollback
+  File "D:\Odoo15\server\odoo\sql_db.py", line 90, in check
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Odoo15\server\odoo\sql_db.py", line 485, in rollback
+    result = self._cnx.rollback()
+             ^^^^^^^^^^^^^^^^^^^^
+psycopg2.InterfaceError: connection already closed
+2024-08-07 07:58:08,451 7880 INFO OdooTest odoo.sql_db: Connection to the database failed 
+2024-08-07 07:58:08,451 7880 WARNING OdooTest odoo.addons.base.models.ir_cron: Exception in cron: 
+Traceback (most recent call last):
+  File "D:\Odoo15\server\odoo\addons\base\models\ir_cron.py", line 114, in _process_jobs
+    with db.cursor() as cron_cr:
+         ^^^^^^^^^^^
+  File "D:\Odoo15\server\odoo\sql_db.py", line 742, in cursor
+    return Cursor(self.__pool, self.__dbname, self.__dsn, serialized=serialized)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Odoo15\server\odoo\sql_db.py", line 259, in __init__
+    self._cnx = pool.borrow(dsn)
+                ^^^^^^^^^^^^^^^^
+  File "D:\Odoo15\server\odoo\sql_db.py", line 603, in _locked
+    return fun(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Odoo15\server\odoo\sql_db.py", line 669, in borrow
+    result = psycopg2.connect(
+             ^^^^^^^^^^^^^^^^^
+  File "D:\Odoo15\python\Lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: FATAL:  the database system is shutting down
+
+2024-08-07 07:58:08,561 7880 INFO ? odoo.service.server: Initiating shutdown 
+2024-08-07 07:58:08,571 7880 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-08-07 07:58:08,941 7880 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 6 connections  
+2024-08-07 07:58:40,623 6008 INFO ? odoo: Odoo version 15.0-20240717 
+2024-08-07 07:58:40,623 6008 INFO ? odoo: Using configuration file at D:\Odoo15\server\odoo.conf 
+2024-08-07 07:58:40,623 6008 INFO ? odoo: addons paths: ['D:\\Odoo15\\server\\odoo\\addons', 'c:\\users\\cjnst\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'd:\\odoo15\\server\\odoo\\addons', 'd:\\odoo15\\custom_addons'] 
+2024-08-07 07:58:40,628 6008 INFO ? odoo: database: odoo15@localhost:5432 
+2024-08-07 07:58:40,813 6008 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Odoo15\thirdparty\wkhtmltopdf.exe 
+2024-08-07 07:58:41,092 6008 INFO ? odoo.service.server: HTTP service (werkzeug) running on LAPTOP-GN9VHO1F:8015 
+2024-08-07 07:59:17,334 6536 INFO ? odoo: Odoo version 15.0-20240717 
+2024-08-07 07:59:17,334 6536 INFO ? odoo: Using configuration file at D:\Odoo15\server\odoo.conf 
+2024-08-07 07:59:17,334 6536 INFO ? odoo: addons paths: ['D:\\Odoo15\\server\\odoo\\addons', 'c:\\users\\cjnst\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'd:\\odoo15\\server\\odoo\\addons', 'd:\\odoo15\\custom_addons'] 
+2024-08-07 07:59:17,334 6536 INFO ? odoo: database: odoo15@localhost:5432 
+2024-08-07 07:59:17,425 6536 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Odoo15\thirdparty\wkhtmltopdf.exe 
+2024-08-07 07:59:17,571 6536 INFO ? odoo.service.server: HTTP service (werkzeug) running on LAPTOP-GN9VHO1F:8015 
+2024-08-07 07:59:23,663 6008 INFO ? odoo.http: HTTP Configuring static files 
+2024-08-07 07:59:23,710 6008 INFO OdooTest odoo.modules.loading: loading 1 modules... 
+2024-08-07 07:59:23,742 6008 INFO OdooTest odoo.modules.loading: 1 modules loaded in 0.03s, 0 queries (+0 extra) 
+2024-08-07 07:59:23,758 6008 INFO OdooTest odoo.modules.loading: loading 43 modules... 
+2024-08-07 07:59:24,447 6008 INFO OdooTest odoo.modules.loading: 43 modules loaded in 0.69s, 0 queries (+0 extra) 
+2024-08-07 07:59:24,525 6008 INFO OdooTest odoo.modules.loading: Modules loaded. 
+2024-08-07 07:59:24,531 6008 INFO OdooTest odoo.modules.registry: Registry loaded in 0.858s 
+2024-08-07 07:59:24,531 6008 INFO OdooTest odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-08-07 07:59:24,715 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:59:24] "[32mGET / HTTP/1.1[0m" 303 - 18 0.053 0.994
+2024-08-07 07:59:25,624 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:59:25] "GET /web HTTP/1.1" 200 - 331 0.119 0.472
+2024-08-07 07:59:25,671 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:59:25] "GET /web/webclient/load_menus/3d931144c50a58864cab63c1c0a2b83f77495a7b61e295b131db5c123982fb90 HTTP/1.1" 200 - 1 0.001 0.002
+2024-08-07 07:59:26,193 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:59:26] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.006 0.052
+2024-08-07 07:59:26,193 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:59:26] "POST /web/action/load HTTP/1.1" 200 - 8 0.005 0.050
+2024-08-07 07:59:26,241 6008 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-08-07 07:59:26,256 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:59:26] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 21 0.046 0.072
+2024-08-07 07:59:26,462 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:59:26] "POST /mail/init_messaging HTTP/1.1" 200 - 66 0.042 0.016
+2024-08-07 07:59:26,581 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:59:26] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.001 0.003
+2024-08-07 07:59:26,789 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:59:26] "POST /mail/load_message_failures HTTP/1.1" 200 - 11 0.003 0.007
+2024-08-07 07:59:26,790 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:59:26] "POST /mail/inbox/messages HTTP/1.1" 200 - 9 0.006 0.004
+2024-08-07 07:59:29,302 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:59:29] "POST /web/action/load HTTP/1.1" 200 - 52 0.024 0.007
+2024-08-07 07:59:29,668 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:59:29] "POST /web/dataset/call_kw/res.config.settings/load_views HTTP/1.1" 200 - 59 0.020 0.029
+2024-08-07 07:59:30,078 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:59:30] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 207 0.064 0.020
+2024-08-07 07:59:30,424 6008 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:59:30] "[36mGET /base_setup/static/src/img/google_play.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:59:30,425 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:59:30] "POST /base_setup/demo_active HTTP/1.1" 200 - 4 0.001 0.004
+2024-08-07 07:59:30,428 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:59:30] "POST /base_setup/data HTTP/1.1" 200 - 6 0.002 0.006
+2024-08-07 07:59:30,431 6008 INFO OdooTest odoo.http: <function odoo.addons.web_editor.controllers.main.public_render_template> called ignoring args <kwargs={'context': {'lang': 'en_AU', 'tz': 'Europe/Brussels', 'uid': 2}}> 
+2024-08-07 07:59:30,451 6008 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:59:30] "[36mGET /base_setup/static/src/img/app_store.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:59:30,463 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:59:30] "POST /web_editor/public_render_template HTTP/1.1" 200 - 27 0.011 0.031
+2024-08-07 07:59:30,795 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:59:30] "GET /web/assets/391-7ebb1b3/web_editor.assets_wysiwyg.min.css HTTP/1.1" 200 - 2 0.001 0.012
+2024-08-07 07:59:30,858 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:59:30] "GET /web/assets/392-7ebb1b3/web_editor.assets_wysiwyg.min.js HTTP/1.1" 200 - 2 0.001 0.075
+2024-08-07 07:59:31,198 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:59:31] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.002
+2024-08-07 07:59:31,510 6008 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:59:31] "GET /web_editor/static/src/xml/editor.xml?debug=1723017571200 HTTP/1.1" 200 - - - -
+2024-08-07 07:59:31,837 6008 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:59:31] "[36mGET /base/static/description/settings.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:59:31,838 6008 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:59:31] "[36mGET /sale_management/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:59:31,839 6008 INFO ? werkzeug: 127.0.0.1 - - [07/Aug/2024 07:59:31] "[36mGET /account/static/description/icon.png HTTP/1.1[0m" 304 - - - -
+2024-08-07 07:59:36,074 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:59:36] "POST /web/action/load HTTP/1.1" 200 - 22 0.009 0.005
+2024-08-07 07:59:36,427 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:59:36] "POST /web/dataset/call_kw/ir.model/load_views HTTP/1.1" 200 - 64 0.025 0.015
+2024-08-07 07:59:36,753 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:59:36] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.003 0.002
+2024-08-07 07:59:37,063 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:59:37] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.001 0.002
+2024-08-07 07:59:41,141 6008 INFO OdooTest odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-08-07 07:59:41,147 6008 INFO OdooTest odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-08-07 07:59:46,674 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:59:46] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.003 0.002
+2024-08-07 07:59:48,233 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:59:48] "POST /web/dataset/call_kw/ir.ui.view/load_views HTTP/1.1" 200 - 18 0.018 0.006
+2024-08-07 07:59:48,564 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:59:48] "POST /web/dataset/call_kw/ir.model/read HTTP/1.1" 200 - 19 0.010 0.002
+2024-08-07 07:59:48,885 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 07:59:48] "POST /web/dataset/call_kw/ir.model.fields/read HTTP/1.1" 200 - 2 0.001 0.003
+2024-08-07 08:00:16,252 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 08:00:16] "POST /longpolling/poll HTTP/1.1" 200 - 13 0.020 50.095
+2024-08-07 08:00:17,110 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 08:00:17] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.006 0.007
+2024-08-07 08:01:06,590 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 08:01:06] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.014
+2024-08-07 08:01:08,106 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 08:01:08] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.003
+2024-08-07 08:01:56,937 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 08:01:56] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.010
+2024-08-07 08:01:59,107 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 08:01:59] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.011
+2024-08-07 08:02:47,281 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 08:02:47] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.009 50.022
+2024-08-07 08:02:50,116 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 08:02:50] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.008
+2024-08-07 08:03:30,227 6536 INFO ? odoo.service.server: Initiating shutdown 
+2024-08-07 08:03:30,227 6536 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-08-07 08:03:30,680 6536 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
+2024-08-07 08:03:33,011 13004 INFO ? odoo: Odoo version 15.0-20240717 
+2024-08-07 08:03:33,011 13004 INFO ? odoo: Using configuration file at D:\Odoo15\server\odoo.conf 
+2024-08-07 08:03:33,011 13004 INFO ? odoo: addons paths: ['D:\\Odoo15\\server\\odoo\\addons', 'c:\\users\\cjnst\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'd:\\odoo15\\server\\odoo\\addons', 'd:\\odoo15\\custom_addons\\hospital'] 
+2024-08-07 08:03:33,012 13004 INFO ? odoo: database: odoo15@localhost:5432 
+2024-08-07 08:03:33,157 13004 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Odoo15\thirdparty\wkhtmltopdf.exe 
+2024-08-07 08:03:33,349 13004 INFO ? odoo.service.server: HTTP service (werkzeug) running on LAPTOP-GN9VHO1F:8015 
+2024-08-07 08:03:37,642 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 08:03:37] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.027
+2024-08-07 08:03:41,111 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 08:03:41] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.007
+2024-08-07 08:04:27,987 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 08:04:27] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.023
+2024-08-07 08:04:29,351 13004 INFO ? odoo.service.server: Initiating shutdown 
+2024-08-07 08:04:29,351 13004 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-08-07 08:04:29,597 13004 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
+2024-08-07 08:04:30,660 15892 INFO ? odoo: Odoo version 15.0-20240717 
+2024-08-07 08:04:30,660 15892 INFO ? odoo: Using configuration file at D:\Odoo15\server\odoo.conf 
+2024-08-07 08:04:30,660 15892 INFO ? odoo: addons paths: ['D:\\Odoo15\\server\\odoo\\addons', 'c:\\users\\cjnst\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'd:\\odoo15\\server\\odoo\\addons', 'd:\\odoo15\\custom_addons\\hospital'] 
+2024-08-07 08:04:30,660 15892 INFO ? odoo: database: odoo15@localhost:5432 
+2024-08-07 08:04:30,765 15892 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Odoo15\thirdparty\wkhtmltopdf.exe 
+2024-08-07 08:04:30,915 15892 INFO ? odoo.service.server: HTTP service (werkzeug) running on LAPTOP-GN9VHO1F:8015 
+2024-08-07 08:04:32,099 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 08:04:32] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.005
+2024-08-07 08:05:18,337 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 08:05:18] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.028
+2024-08-07 08:05:23,106 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 08:05:23] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.002 0.009
+2024-08-07 08:06:08,698 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 08:06:08] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.032
+2024-08-07 08:06:14,103 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 08:06:14] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.006
+2024-08-07 08:06:59,049 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 08:06:59] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.037
+2024-08-07 08:07:05,106 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 08:07:05] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.005 0.006
+2024-08-07 08:07:49,412 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 08:07:49] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.011 50.026
+2024-08-07 08:07:56,099 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 08:07:56] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.007
+2024-08-07 08:08:39,772 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 08:08:39] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.026
+2024-08-07 08:08:47,113 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 08:08:47] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.007
+2024-08-07 08:09:30,112 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 08:09:30] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.009 50.020
+2024-08-07 08:09:38,131 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 08:09:38] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.005 0.009
+2024-08-07 08:09:40,436 15892 INFO ? odoo.service.server: Initiating shutdown 
+2024-08-07 08:09:40,436 15892 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-08-07 08:09:40,526 15892 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
+2024-08-07 08:09:41,243 6008 INFO OdooTest odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2024-08-07 08:09:41,247 6008 INFO OdooTest odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2024-08-07 08:10:20,476 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 08:10:20] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.036
+2024-08-07 08:10:29,102 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 08:10:29] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.001 0.007
+2024-08-07 08:10:32,505 10412 INFO ? odoo: Odoo version 15.0-20240717 
+2024-08-07 08:10:32,506 10412 INFO ? odoo: Using configuration file at D:\Odoo15\server\odoo.conf 
+2024-08-07 08:10:32,506 10412 INFO ? odoo: addons paths: ['D:\\Odoo15\\server\\odoo\\addons', 'c:\\users\\cjnst\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'd:\\odoo15\\server\\odoo\\addons', 'd:\\odoo15\\custom_addons\\hospital'] 
+2024-08-07 08:10:32,506 10412 INFO ? odoo: database: odoo15@localhost:5432 
+2024-08-07 08:10:32,625 10412 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Odoo15\thirdparty\wkhtmltopdf.exe 
+2024-08-07 08:10:32,795 10412 INFO ? odoo.service.server: HTTP service (werkzeug) running on LAPTOP-GN9VHO1F:8015 
+2024-08-07 08:10:44,079 10412 INFO ? odoo.service.server: Initiating shutdown 
+2024-08-07 08:10:44,079 10412 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-08-07 08:10:44,461 10412 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
+2024-08-07 08:10:45,488 14404 INFO ? odoo: Odoo version 15.0-20240717 
+2024-08-07 08:10:45,488 14404 INFO ? odoo: Using configuration file at D:\Odoo15\server\odoo.conf 
+2024-08-07 08:10:45,488 14404 INFO ? odoo: addons paths: ['D:\\Odoo15\\server\\odoo\\addons', 'c:\\users\\cjnst\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'd:\\odoo15\\server\\odoo\\addons', 'd:\\odoo15\\custom_addons\\hospital'] 
+2024-08-07 08:10:45,488 14404 INFO ? odoo: database: odoo15@localhost:5432 
+2024-08-07 08:10:45,592 14404 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Odoo15\thirdparty\wkhtmltopdf.exe 
+2024-08-07 08:10:45,728 14404 INFO ? odoo.service.server: HTTP service (werkzeug) running on LAPTOP-GN9VHO1F:8015 
+2024-08-07 08:11:01,808 14404 INFO ? odoo.service.server: Initiating shutdown 
+2024-08-07 08:11:01,808 14404 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-08-07 08:11:01,945 14404 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
+2024-08-07 08:11:03,120 12332 INFO ? odoo: Odoo version 15.0-20240717 
+2024-08-07 08:11:03,120 12332 INFO ? odoo: Using configuration file at D:\Odoo15\server\odoo.conf 
+2024-08-07 08:11:03,120 12332 INFO ? odoo: addons paths: ['D:\\Odoo15\\server\\odoo\\addons', 'c:\\users\\cjnst\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'd:\\odoo15\\server\\odoo\\addons', 'd:\\odoo15\\custom_addons\\hospital'] 
+2024-08-07 08:11:03,120 12332 INFO ? odoo: database: odoo15@localhost:5432 
+2024-08-07 08:11:03,232 12332 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Odoo15\thirdparty\wkhtmltopdf.exe 
+2024-08-07 08:11:03,376 12332 INFO ? odoo.service.server: HTTP service (werkzeug) running on LAPTOP-GN9VHO1F:8015 
+2024-08-07 08:11:10,819 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 08:11:10] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.017
+2024-08-07 08:11:13,416 12332 INFO ? odoo.service.server: Initiating shutdown 
+2024-08-07 08:11:13,416 12332 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-08-07 08:11:13,485 12332 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
+2024-08-07 08:11:14,474 6956 INFO ? odoo: Odoo version 15.0-20240717 
+2024-08-07 08:11:14,475 6956 INFO ? odoo: Using configuration file at D:\Odoo15\server\odoo.conf 
+2024-08-07 08:11:14,475 6956 INFO ? odoo: addons paths: ['D:\\Odoo15\\server\\odoo\\addons', 'c:\\users\\cjnst\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'd:\\odoo15\\server\\odoo\\addons', 'd:\\odoo15\\custom_addons\\hospital'] 
+2024-08-07 08:11:14,475 6956 INFO ? odoo: database: odoo15@localhost:5432 
+2024-08-07 08:11:14,576 6956 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Odoo15\thirdparty\wkhtmltopdf.exe 
+2024-08-07 08:11:14,721 6956 INFO ? odoo.service.server: HTTP service (werkzeug) running on LAPTOP-GN9VHO1F:8015 
+2024-08-07 08:11:20,100 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 08:11:20] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.001 0.006
+2024-08-07 08:11:31,040 6956 INFO ? odoo.service.server: Initiating shutdown 
+2024-08-07 08:11:31,040 6956 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-08-07 08:11:31,398 6956 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
+2024-08-07 08:11:34,037 7032 INFO ? odoo: Odoo version 15.0-20240717 
+2024-08-07 08:11:34,038 7032 INFO ? odoo: Using configuration file at D:\Odoo15\server\odoo.conf 
+2024-08-07 08:11:34,038 7032 INFO ? odoo: addons paths: ['D:\\Odoo15\\server\\odoo\\addons', 'c:\\users\\cjnst\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'd:\\odoo15\\server\\odoo\\addons', 'd:\\odoo15\\custom_addons\\hospital'] 
+2024-08-07 08:11:34,038 7032 INFO ? odoo: database: odoo15@localhost:5432 
+2024-08-07 08:11:34,285 7032 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\Odoo15\thirdparty\wkhtmltopdf.exe 
+2024-08-07 08:11:34,689 7032 INFO ? odoo.service.server: HTTP service (werkzeug) running on LAPTOP-GN9VHO1F:8015 
+2024-08-07 08:12:01,157 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 08:12:01] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.021
+2024-08-07 08:12:11,108 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 08:12:11] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.005
+2024-08-07 08:12:51,498 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 08:12:51] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.022
+2024-08-07 08:13:02,094 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 08:13:02] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.001
+2024-08-07 08:13:41,856 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 08:13:41] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.021
+2024-08-07 08:13:53,100 6008 INFO OdooTest werkzeug: 127.0.0.1 - - [07/Aug/2024 08:13:53] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.005
