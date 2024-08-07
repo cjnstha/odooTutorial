@@ -1,0 +1,14 @@
+
+Installation Directory: D:\Odoo15\PostgreSQL
+Server Installation Directory: D:\Odoo15\PostgreSQL
+Data Directory: D:\Odoo15\PostgreSQL\data
+Database Port: 5432
+Database Superuser: odoo15
+Operating System Account: openpgsvc
+Database Service: PostgreSQL_For_Odoo
+Command Line Tools Installation Directory: D:\Odoo15\PostgreSQL
+pgAdmin4 Installation Directory: D:\Odoo15\PostgreSQL\pgAdmin 4
+Stack Builder Installation Directory: D:\Odoo15\PostgreSQL\stackbuilder
+
+===== Installation completed at: 2024-08-07(YYYY-MM-DD) - 00:19:51(HH:MM:SS) =====
+                            

@@ -1,0 +1,41 @@
+2024-08-07 00:50:06.652 AWST [432] ERROR:  could not serialize access due to concurrent delete
+2024-08-07 00:50:06.652 AWST [432] STATEMENT:  DELETE FROM ir_attachment WHERE id IN (188)
+2024-08-07 00:53:19.777 AWST [10324] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-07 00:54:46.574 AWST [8812] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-07 00:58:58.039 AWST [8104] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-07 01:08:35.220 AWST [18260] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-07 01:18:40.276 AWST [13492] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-07 01:22:43.798 AWST [4216] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-07 01:22:43.806 AWST [17940] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-07 01:22:43.809 AWST [11120] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-07 13:16:25.229 AWST [13176] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-07 13:16:25.229 AWST [7416] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-07 13:16:25.229 AWST [11380] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-07 13:16:25.777 AWST [2980] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-07 13:16:25.777 AWST [17696] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-07 13:16:28.561 AWST [9704] LOG:  received fast shutdown request
+2024-08-07 13:16:28.565 AWST [9704] LOG:  aborting any active transactions
+2024-08-07 13:16:28.575 AWST [8400] FATAL:  terminating connection due to administrator command
+2024-08-07 13:16:28.576 AWST [6808] FATAL:  terminating connection due to administrator command
+2024-08-07 13:16:28.577 AWST [18304] FATAL:  terminating connection due to administrator command
+2024-08-07 13:16:28.580 AWST [18120] ERROR:  canceling statement due to user request
+2024-08-07 13:16:28.591 AWST [8760] FATAL:  terminating connection due to administrator command
+2024-08-07 13:16:28.602 AWST [9464] FATAL:  terminating connection due to administrator command
+2024-08-07 13:16:28.603 AWST [8324] FATAL:  terminating connection due to administrator command
+2024-08-07 13:16:28.611 AWST [9704] LOG:  background worker "logical replication launcher" (PID 18120) exited with exit code 1
+2024-08-07 13:16:28.613 AWST [11456] FATAL:  terminating connection due to administrator command
+2024-08-07 13:16:28.625 AWST [11496] LOG:  shutting down
+2024-08-07 13:16:28.690 AWST [9704] LOG:  database system is shut down

@@ -1,0 +1,17 @@
+2024-08-06 23:19:39.858 AWST [13636] LOG:  database system was shut down at 2024-08-06 23:19:35 AWST
+2024-08-06 23:19:39.894 AWST [9704] LOG:  database system is ready to accept connections
+2024-08-06 23:29:51.313 AWST [17036] FATAL:  password authentication failed for user "odoo15"
+2024-08-06 23:29:51.313 AWST [17036] DETAIL:  Password does not match for user "odoo15".
+	Connection matched pg_hba.conf line 86: "host    all             all             ::1/128                 md5"
+2024-08-06 23:29:51.347 AWST [17372] FATAL:  password authentication failed for user "odoo15"
+2024-08-06 23:29:51.347 AWST [17372] DETAIL:  Password does not match for user "odoo15".
+	Connection matched pg_hba.conf line 86: "host    all             all             ::1/128                 md5"
+2024-08-06 23:29:51.381 AWST [6668] FATAL:  password authentication failed for user "odoo15"
+2024-08-06 23:29:51.381 AWST [6668] DETAIL:  Password does not match for user "odoo15".
+	Connection matched pg_hba.conf line 86: "host    all             all             ::1/128                 md5"
+2024-08-06 23:29:54.109 AWST [10584] FATAL:  password authentication failed for user "odoo15"
+2024-08-06 23:29:54.109 AWST [10584] DETAIL:  Password does not match for user "odoo15".
+	Connection matched pg_hba.conf line 86: "host    all             all             ::1/128                 md5"
+2024-08-07 00:42:09.516 AWST [12896] FATAL:  database "Odoo_DB" does not exist
+2024-08-07 00:42:09.595 AWST [16612] FATAL:  database "Odoo_DB" does not exist
+2024-08-07 00:42:09.779 AWST [11068] FATAL:  database "Odoo_DB" does not exist
