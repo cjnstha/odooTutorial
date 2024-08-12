@@ -1,0 +1,48 @@
+2024-08-12 14:55:42.697 AWST [2000] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-12 14:55:42.700 AWST [8032] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-12 16:02:43.104 AWST [5724] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-12 16:02:43.104 AWST [23876] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-12 16:54:13.512 AWST [6048] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-12 16:54:13.513 AWST [11512] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-12 16:54:13.513 AWST [19752] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-12 16:54:13.514 AWST [17696] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-12 16:54:13.515 AWST [10760] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-12 16:54:13.517 AWST [12232] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-12 16:54:13.518 AWST [17624] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-12 16:54:13.518 AWST [15036] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-12 16:54:13.672 AWST [4868] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-12 16:54:13.672 AWST [4904] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-12 16:54:13.672 AWST [15084] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-12 16:54:13.672 AWST [4876] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-12 16:54:16.147 AWST [7472] LOG:  received fast shutdown request
+2024-08-12 16:54:16.149 AWST [7472] LOG:  aborting any active transactions
+2024-08-12 16:54:16.150 AWST [7840] FATAL:  terminating connection due to administrator command
+2024-08-12 16:54:16.150 AWST [18648] FATAL:  terminating connection due to administrator command
+2024-08-12 16:54:16.150 AWST [11556] FATAL:  terminating connection due to administrator command
+2024-08-12 16:54:16.150 AWST [18620] FATAL:  terminating connection due to administrator command
+2024-08-12 16:54:16.150 AWST [18588] FATAL:  terminating connection due to administrator command
+2024-08-12 16:54:16.151 AWST [17632] FATAL:  terminating connection due to administrator command
+2024-08-12 16:54:16.154 AWST [7220] ERROR:  canceling statement due to user request
+2024-08-12 16:54:16.156 AWST [18680] FATAL:  terminating connection due to administrator command
+2024-08-12 16:54:16.158 AWST [7472] LOG:  background worker "logical replication launcher" (PID 7220) exited with exit code 1
+2024-08-12 16:54:16.157 AWST [11136] FATAL:  terminating connection due to administrator command
+2024-08-12 16:54:16.158 AWST [10960] FATAL:  terminating connection due to administrator command
+2024-08-12 16:54:16.172 AWST [6560] LOG:  shutting down
+2024-08-12 16:54:16.181 AWST [9952] FATAL:  the database system is shutting down
+2024-08-12 16:54:16.191 AWST [7472] LOG:  database system is shut down

@@ -4,3 +4,21 @@
 	
 2024-08-07 16:14:03.006 AWST [19132] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
 	
+2024-08-09 05:26:40.684 AWST [18620] ERROR:  could not serialize access due to concurrent update
+2024-08-09 05:26:40.684 AWST [18620] STATEMENT:  
+	            SELECT *
+	            FROM ir_cron
+	            WHERE active = true
+	              AND numbercall != 0
+	              AND (nextcall <= (now() at time zone 'UTC')
+	                OR EXISTS (
+	                    SELECT cron_id
+	                    FROM ir_cron_trigger
+	                    WHERE call_at <= (now() at time zone 'UTC')
+	                      AND cron_id = ir_cron.id
+	                )
+	              )
+	              AND id in (7)
+	            ORDER BY priority
+	            LIMIT 1 FOR NO KEY UPDATE SKIP LOCKED
+	        

@@ -1,0 +1,9 @@
+2024-08-12 17:34:31.417 AWST [2896] LOG:  database system was interrupted; last known up at 2024-08-12 17:12:54 AWST
+2024-08-12 17:34:32.255 AWST [2896] LOG:  database system was not properly shut down; automatic recovery in progress
+2024-08-12 17:34:32.259 AWST [2896] LOG:  redo starts at 0/8869D38
+2024-08-12 17:34:32.259 AWST [2896] LOG:  invalid record length at 0/8869E20: wanted 24, got 0
+2024-08-12 17:34:32.260 AWST [2896] LOG:  redo done at 0/8869DE8
+2024-08-12 17:34:32.290 AWST [16224] LOG:  database system is ready to accept connections
+2024-08-12 17:34:41.925 AWST [15212] FATAL:  password authentication failed for user "odoo15"
+2024-08-12 17:34:41.925 AWST [15212] DETAIL:  Password does not match for user "odoo15".
+	Connection matched pg_hba.conf line 86: "host    all             all             ::1/128                 md5"

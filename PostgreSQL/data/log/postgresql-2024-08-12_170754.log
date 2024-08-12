@@ -1,0 +1,14 @@
+2024-08-12 17:07:54.299 AWST [7752] LOG:  database system was shut down at 2024-08-12 17:07:23 AWST
+2024-08-12 17:07:54.312 AWST [7264] LOG:  database system is ready to accept connections
+2024-08-12 17:28:12.516 AWST [18376] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-12 17:28:12.516 AWST [17688] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-12 17:28:12.516 AWST [15708] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-12 17:28:12.517 AWST [3100] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-12 17:28:12.747 AWST [6584] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-12 17:28:12.747 AWST [16132] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	

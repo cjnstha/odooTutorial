@@ -13,9 +13,13 @@
 This module contains all the  features of Hospital Management.
     """,
     'depends': [],
-    'data': [],
+    'data': [
+        'security/ir.model.access.csv',
+        'views/menu.xml',
+        'views/patient_view.xml',
+    ],
     'demo': [],
-    # 'installable': True,
+    'installable': True,
     'auto_install': False,
     'application': True,
     'license': 'LGPL-3',

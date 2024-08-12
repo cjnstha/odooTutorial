@@ -1,0 +1,107 @@
+2024-08-12 02:15:31.154 AWST [18588] ERROR:  could not serialize access due to concurrent update
+2024-08-12 02:15:31.154 AWST [18588] STATEMENT:  
+	            SELECT *
+	            FROM ir_cron
+	            WHERE active = true
+	              AND numbercall != 0
+	              AND (nextcall <= (now() at time zone 'UTC')
+	                OR EXISTS (
+	                    SELECT cron_id
+	                    FROM ir_cron_trigger
+	                    WHERE call_at <= (now() at time zone 'UTC')
+	                      AND cron_id = ir_cron.id
+	                )
+	              )
+	              AND id in (8)
+	            ORDER BY priority
+	            LIMIT 1 FOR NO KEY UPDATE SKIP LOCKED
+	        
+2024-08-12 06:53:51.487 AWST [18648] ERROR:  could not serialize access due to concurrent update
+2024-08-12 06:53:51.487 AWST [18648] STATEMENT:  
+	            SELECT *
+	            FROM ir_cron
+	            WHERE active = true
+	              AND numbercall != 0
+	              AND (nextcall <= (now() at time zone 'UTC')
+	                OR EXISTS (
+	                    SELECT cron_id
+	                    FROM ir_cron_trigger
+	                    WHERE call_at <= (now() at time zone 'UTC')
+	                      AND cron_id = ir_cron.id
+	                )
+	              )
+	              AND id in (2)
+	            ORDER BY priority
+	            LIMIT 1 FOR NO KEY UPDATE SKIP LOCKED
+	        
+2024-08-12 06:53:51.489 AWST [18648] ERROR:  could not serialize access due to concurrent update
+2024-08-12 06:53:51.489 AWST [18648] STATEMENT:  
+	            SELECT *
+	            FROM ir_cron
+	            WHERE active = true
+	              AND numbercall != 0
+	              AND (nextcall <= (now() at time zone 'UTC')
+	                OR EXISTS (
+	                    SELECT cron_id
+	                    FROM ir_cron_trigger
+	                    WHERE call_at <= (now() at time zone 'UTC')
+	                      AND cron_id = ir_cron.id
+	                )
+	              )
+	              AND id in (13)
+	            ORDER BY priority
+	            LIMIT 1 FOR NO KEY UPDATE SKIP LOCKED
+	        
+2024-08-12 13:47:36.614 AWST [17632] ERROR:  null value in column "name" violates not-null constraint
+2024-08-12 13:47:36.614 AWST [17632] DETAIL:  Failing row contains (533, null, t, null, null, null, null, null, null, 1, 2024-08-12 05:47:34.839077, 1, 2024-08-12 05:47:34.839077).
+2024-08-12 13:47:36.614 AWST [17632] STATEMENT:  INSERT INTO "ir_model_access" ("id", "active", "create_date", "create_uid", "write_date", "write_uid") VALUES (nextval('ir_model_access_id_seq'), true, '2024-08-12 05:47:34.839077', 1, '2024-08-12 05:47:34.839077', 1) RETURNING id
+2024-08-12 13:47:36.617 AWST [17632] ERROR:  null value in column "name" violates not-null constraint
+2024-08-12 13:47:36.617 AWST [17632] DETAIL:  Failing row contains (534, null, t, null, null, null, null, null, null, 1, 2024-08-12 05:47:34.839077, 1, 2024-08-12 05:47:34.839077).
+2024-08-12 13:47:36.617 AWST [17632] STATEMENT:  INSERT INTO "ir_model_access" ("id", "active", "create_date", "create_uid", "write_date", "write_uid") VALUES (nextval('ir_model_access_id_seq'), true, '2024-08-12 05:47:34.839077', 1, '2024-08-12 05:47:34.839077', 1) RETURNING id
+2024-08-12 13:47:36.621 AWST [17632] ERROR:  null value in column "name" violates not-null constraint
+2024-08-12 13:47:36.621 AWST [17632] DETAIL:  Failing row contains (535, null, t, null, null, null, null, null, null, 1, 2024-08-12 05:47:34.839077, 1, 2024-08-12 05:47:34.839077).
+2024-08-12 13:47:36.621 AWST [17632] STATEMENT:  INSERT INTO "ir_model_access" ("id", "active", "create_date", "create_uid", "write_date", "write_uid") VALUES (nextval('ir_model_access_id_seq'), true, '2024-08-12 05:47:34.839077', 1, '2024-08-12 05:47:34.839077', 1) RETURNING id
+2024-08-12 13:48:17.032 AWST [7840] ERROR:  null value in column "name" violates not-null constraint
+2024-08-12 13:48:17.032 AWST [7840] DETAIL:  Failing row contains (536, null, t, null, null, null, null, null, null, 1, 2024-08-12 05:48:15.406092, 1, 2024-08-12 05:48:15.406092).
+2024-08-12 13:48:17.032 AWST [7840] STATEMENT:  INSERT INTO "ir_model_access" ("id", "active", "create_date", "create_uid", "write_date", "write_uid") VALUES (nextval('ir_model_access_id_seq'), true, '2024-08-12 05:48:15.406092', 1, '2024-08-12 05:48:15.406092', 1) RETURNING id
+2024-08-12 13:48:17.039 AWST [7840] ERROR:  null value in column "name" violates not-null constraint
+2024-08-12 13:48:17.039 AWST [7840] DETAIL:  Failing row contains (537, null, t, null, null, null, null, null, null, 1, 2024-08-12 05:48:15.406092, 1, 2024-08-12 05:48:15.406092).
+2024-08-12 13:48:17.039 AWST [7840] STATEMENT:  INSERT INTO "ir_model_access" ("id", "active", "create_date", "create_uid", "write_date", "write_uid") VALUES (nextval('ir_model_access_id_seq'), true, '2024-08-12 05:48:15.406092', 1, '2024-08-12 05:48:15.406092', 1) RETURNING id
+2024-08-12 13:48:17.043 AWST [7840] ERROR:  null value in column "name" violates not-null constraint
+2024-08-12 13:48:17.043 AWST [7840] DETAIL:  Failing row contains (538, null, t, null, null, null, null, null, null, 1, 2024-08-12 05:48:15.406092, 1, 2024-08-12 05:48:15.406092).
+2024-08-12 13:48:17.043 AWST [7840] STATEMENT:  INSERT INTO "ir_model_access" ("id", "active", "create_date", "create_uid", "write_date", "write_uid") VALUES (nextval('ir_model_access_id_seq'), true, '2024-08-12 05:48:15.406092', 1, '2024-08-12 05:48:15.406092', 1) RETURNING id
+2024-08-12 13:56:02.632 AWST [19812] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-12 13:56:02.633 AWST [21468] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-12 14:01:58.493 AWST [18648] ERROR:  null value in column "name" violates not-null constraint
+2024-08-12 14:01:58.493 AWST [18648] DETAIL:  Failing row contains (539, null, t, null, null, null, null, null, null, 1, 2024-08-12 06:01:56.955283, 1, 2024-08-12 06:01:56.955283).
+2024-08-12 14:01:58.493 AWST [18648] STATEMENT:  INSERT INTO "ir_model_access" ("id", "active", "create_date", "create_uid", "write_date", "write_uid") VALUES (nextval('ir_model_access_id_seq'), true, '2024-08-12 06:01:56.955283', 1, '2024-08-12 06:01:56.955283', 1) RETURNING id
+2024-08-12 14:01:58.499 AWST [18648] ERROR:  null value in column "name" violates not-null constraint
+2024-08-12 14:01:58.499 AWST [18648] DETAIL:  Failing row contains (540, null, t, null, null, null, null, null, null, 1, 2024-08-12 06:01:56.955283, 1, 2024-08-12 06:01:56.955283).
+2024-08-12 14:01:58.499 AWST [18648] STATEMENT:  INSERT INTO "ir_model_access" ("id", "active", "create_date", "create_uid", "write_date", "write_uid") VALUES (nextval('ir_model_access_id_seq'), true, '2024-08-12 06:01:56.955283', 1, '2024-08-12 06:01:56.955283', 1) RETURNING id
+2024-08-12 14:01:58.503 AWST [18648] ERROR:  null value in column "name" violates not-null constraint
+2024-08-12 14:01:58.503 AWST [18648] DETAIL:  Failing row contains (541, null, t, null, null, null, null, null, null, 1, 2024-08-12 06:01:56.955283, 1, 2024-08-12 06:01:56.955283).
+2024-08-12 14:01:58.503 AWST [18648] STATEMENT:  INSERT INTO "ir_model_access" ("id", "active", "create_date", "create_uid", "write_date", "write_uid") VALUES (nextval('ir_model_access_id_seq'), true, '2024-08-12 06:01:56.955283', 1, '2024-08-12 06:01:56.955283', 1) RETURNING id
+2024-08-12 14:02:51.014 AWST [11556] ERROR:  null value in column "name" violates not-null constraint
+2024-08-12 14:02:51.014 AWST [11556] DETAIL:  Failing row contains (542, null, t, null, null, null, null, null, null, 1, 2024-08-12 06:02:49.55909, 1, 2024-08-12 06:02:49.55909).
+2024-08-12 14:02:51.014 AWST [11556] STATEMENT:  INSERT INTO "ir_model_access" ("id", "active", "create_date", "create_uid", "write_date", "write_uid") VALUES (nextval('ir_model_access_id_seq'), true, '2024-08-12 06:02:49.559090', 1, '2024-08-12 06:02:49.559090', 1) RETURNING id
+2024-08-12 14:02:51.020 AWST [11556] ERROR:  null value in column "name" violates not-null constraint
+2024-08-12 14:02:51.020 AWST [11556] DETAIL:  Failing row contains (543, null, t, null, null, null, null, null, null, 1, 2024-08-12 06:02:49.55909, 1, 2024-08-12 06:02:49.55909).
+2024-08-12 14:02:51.020 AWST [11556] STATEMENT:  INSERT INTO "ir_model_access" ("id", "active", "create_date", "create_uid", "write_date", "write_uid") VALUES (nextval('ir_model_access_id_seq'), true, '2024-08-12 06:02:49.559090', 1, '2024-08-12 06:02:49.559090', 1) RETURNING id
+2024-08-12 14:02:51.028 AWST [11556] ERROR:  null value in column "name" violates not-null constraint
+2024-08-12 14:02:51.028 AWST [11556] DETAIL:  Failing row contains (544, null, t, null, null, null, null, null, null, 1, 2024-08-12 06:02:49.55909, 1, 2024-08-12 06:02:49.55909).
+2024-08-12 14:02:51.028 AWST [11556] STATEMENT:  INSERT INTO "ir_model_access" ("id", "active", "create_date", "create_uid", "write_date", "write_uid") VALUES (nextval('ir_model_access_id_seq'), true, '2024-08-12 06:02:49.559090', 1, '2024-08-12 06:02:49.559090', 1) RETURNING id
+2024-08-12 14:05:55.977 AWST [17632] ERROR:  null value in column "name" violates not-null constraint
+2024-08-12 14:05:55.977 AWST [17632] DETAIL:  Failing row contains (545, null, t, null, null, null, null, null, null, 1, 2024-08-12 06:05:54.409771, 1, 2024-08-12 06:05:54.409771).
+2024-08-12 14:05:55.977 AWST [17632] STATEMENT:  INSERT INTO "ir_model_access" ("id", "active", "create_date", "create_uid", "write_date", "write_uid") VALUES (nextval('ir_model_access_id_seq'), true, '2024-08-12 06:05:54.409771', 1, '2024-08-12 06:05:54.409771', 1) RETURNING id
+2024-08-12 14:05:55.982 AWST [17632] ERROR:  null value in column "name" violates not-null constraint
+2024-08-12 14:05:55.982 AWST [17632] DETAIL:  Failing row contains (546, null, t, null, null, null, null, null, null, 1, 2024-08-12 06:05:54.409771, 1, 2024-08-12 06:05:54.409771).
+2024-08-12 14:05:55.982 AWST [17632] STATEMENT:  INSERT INTO "ir_model_access" ("id", "active", "create_date", "create_uid", "write_date", "write_uid") VALUES (nextval('ir_model_access_id_seq'), true, '2024-08-12 06:05:54.409771', 1, '2024-08-12 06:05:54.409771', 1) RETURNING id
+2024-08-12 14:05:55.988 AWST [17632] ERROR:  null value in column "name" violates not-null constraint
+2024-08-12 14:05:55.988 AWST [17632] DETAIL:  Failing row contains (547, null, t, null, null, null, null, null, null, 1, 2024-08-12 06:05:54.409771, 1, 2024-08-12 06:05:54.409771).
+2024-08-12 14:05:55.988 AWST [17632] STATEMENT:  INSERT INTO "ir_model_access" ("id", "active", "create_date", "create_uid", "write_date", "write_uid") VALUES (nextval('ir_model_access_id_seq'), true, '2024-08-12 06:05:54.409771', 1, '2024-08-12 06:05:54.409771', 1) RETURNING id
+2024-08-12 14:52:42.667 AWST [12112] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2024-08-12 14:52:42.667 AWST [16336] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
